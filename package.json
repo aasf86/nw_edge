@@ -1,0 +1,35 @@
+{
+  "name": "nw_edge",
+  "main": "index.html",
+  "version": "1.0.0",
+  "description": "",
+  "window": {
+    "width": 400,
+    "height": 300,
+    "resizable": false,
+    "frame": true,
+    "title": "Olá Mundo",
+    "show": true,
+    "fullscreen": false,
+    "kiosk": false,
+    "icon": "icon_32.png"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aasf86/nw_edge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aasf86/nw_edge/issues"
+  },
+  "homepage": "https://github.com/aasf86/nw_edge#readme",
+  "dependencies": {
+    "edge": "^5.9.2",
+    "electron-edge": "^5.0.3-pre1",
+    "nw-gyp": "^3.4.0"
+  }
+}
